@@ -37,9 +37,9 @@ Abaixo, cada análise está estruturada com a questão escolhida, a visualizaç�
 
 De acordo com os gráficos
 
-Análise de Sazonalidade (Melhor Mês por Ano):
-Ano 2016:
-Melhor mês para Valor Recebido: Outubro (2016-10) com R$ 67.941,17.
+## Análise de Sazonalidade (Melhor Mês por Ano):
+## Ano 2016:
+#### Melhor mês para Valor Recebido: Outubro (2016-10) com R$ 67.941,17.
 Melhor mês para Quantidade Vendida: Outubro (2016-10) com 362 unidades.
 Ano 2017: Melhor mês para Valor Recebido: Novembro (2017-11) com R$ 1.550.848,82.
 Melhor mês para Quantidade Vendida: Novembro (2017-11) com 8.811 unidades.
