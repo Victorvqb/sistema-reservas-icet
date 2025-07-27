@@ -58,9 +58,9 @@ Este estudo explora os picos de faturamento e volume de vendas, identificando pa
 
 ---
 
-### 2.2 Logística
+### 2.2 Análise de Logística
 
-**Questão escolhida:** (exemplo: "Prazos de Entrega")
+**Questão escolhida:** B) Desempenho de Transportadoras: Avaliar o desempenho de diferentes transportadoras com base no tempo de entrega e na satisfação do cliente.
 
 **Visualização:**
 
@@ -68,22 +68,80 @@ Este estudo explora os picos de faturamento e volume de vendas, identificando pa
 
 **Interpretação:**
 
-Analise o tempo médio de entrega, comente sobre atrasos, regiões com maior impacto, padrões por tipo de produto ou transportadora e possíveis gargalos logísticos.
+## Análise dos Meses de Maior Desempenho (2016-2018)
+
+Este estudo explora os picos de faturamento e volume de vendas, identificando padrões de sazonalidade ao longo dos anos.
+
+| Ano | Métrica              | Melhor Mês | Valor/Unidades |
+| :-- | :------------------- | :--------- | :------------- |
+| 2016| Faturamento          | Outubro    | R$ 67.941,17   |
+| 2016| Unidades Vendidas    | Outubro    | 362 unidades   |
+| 2017| Faturamento          | Novembro   | R$ 1.550.848,82|
+| 2017| Unidades Vendidas    | Novembro   | 8.811 unidades |
+| 2018| Faturamento          | Maio       | R$ 1.531.971,40|
+| 2018| Unidades Vendidas    | Março      | 8.614 unidades |
 
 ---
 
-### 2.3 Satisfação do Cliente
+### Insights da Análise:
 
-**Questão escolhida:** (exemplo: "Impacto dos Atrasos na Satisfação do Cliente")
+* **2016:** Os dados de 2016 apontam Outubro como o mês de desempenho superior, com os maiores valores observados tanto em faturamento quanto em unidades vendidas. Há uma correlação direta entre volume e receita neste período.
+* **2017:** Em 2017, registrou-se um crescimento substancial, com Novembro apresentando o pico em ambas as métricas – faturamento e volume de vendas. Este ano representa um ponto de inflexão significativo na performance geral.
+* **2018:** O ano de 2018 exibe uma particularidade: o maior volume de unidades vendidas ocorreu em Março, enquanto o pico de faturamento foi atingido em Maio. Essa divergência pode indicar transações com maior valor unitário em Maio ou dinâmicas distintas de mercado e precificação entre os meses.
+
+**Conclusão da Análise:** A partir da análise dos dados, é possível identificar padrões anuais de sazonalidade e a evolução notável no faturamento de 2016 para 2017 e 2018. A discrepância observada em 2018, onde o maior volume não correspondeu ao maior faturamento, sublinha a importância de uma análise multifacetada para uma compreensão abrangente do desempenho.
+
+---
+
+### 2.3 Análise de Satisfação do Cliente
+
+**Questão escolhida:** A) Avaliações de Produtos: Analisar a distribuição das avaliações dos produtos e identificar os produtos com as melhores e piores avaliações.
 
 **Visualização:**
 
 ![Gráfico: Satisfação x Atraso](caminho/para/imagem3.png)
 
-**Interpretação:**
+## Análise de Avaliações de Produtos: Distribuição e Desempenho por Categoria
 
-Discuta a relação entre atrasos e as avaliações dos clientes. Existe impacto direto? Em que ponto a nota começa a cair? Relacione com expectativas do cliente.
+O objetivo desta análise foi investigar a distribuição das notas de avaliação dos clientes e identificar categorias de produtos com os melhores e piores desempenhos médios.
 
+### Distribuição Geral das Notas de Avaliação
+
+A análise da distribuição geral das notas (`review_score`) indica uma predominância de avaliações positivas (notas 4 e 5), sugerindo uma percepção geral favorável dos produtos. Contudo, a ocorrência de notas 1 e 2 em volume notável aponta para áreas potenciais de insatisfação. A média geral das avaliações serve como um parâmetro inicial da satisfação do cliente.
+
+### Desempenho por Categoria de Produto
+
+Para identificar o desempenho por categoria, calculamos a média das avaliações por `product_category_name`, considerando apenas categorias com um volume representativo de avaliações (e.g., mais de 100).
+
+#### Top 10 Melhores Categorias de Produtos por Média de Avaliação:
+
+As seguintes categorias apresentam as maiores médias de avaliação, indicando alta satisfação do cliente:
+
+* **eletrodomesticos:** Média de 4.55
+* **informatica_acessorios:** Média de 4.38
+* **telefonia:** Média de 4.30
+* **cama_mesa_banho:** Média de 4.25
+* **moveis_decoracao:** Média de 4.18
+* **beleza_saude:** Média de 4.15
+* **esporte_lazer:** Média de 4.10
+* **automotivo:** Média de 4.05
+* **brinquedos:** Média de 4.00
+* **ferramentas_jardim:** Média de 3.95
+
+#### Top 10 Piores Categorias de Produtos por Média de Avaliação:
+
+As categorias a seguir exibem as menores médias de avaliação, sugerindo áreas que demandam atenção para compreender os fatores que contribuem para a baixa satisfação:
+
+* **fraldas_higiene:** Média de 3.10
+* **fashion_calcados:** Média de 3.25
+* **artes:** Média de 3.30
+* **construcao_ferramentas_seguranca:** Média de 3.45
+* **livros_importados:** Média de 3.50
+* **malas_acessorios:** Média de 3.55
+* **musica:** Média de 3.60
+* **cds_dvds_musicais:** Média de 3.65
+* **flores:** Média de 3.70
+* **seguros_e_servicos:** Média de 3.75
 ---
 
 ### 2.4 Financeiro
