@@ -27,7 +27,7 @@ Abaixo, cada análise está estruturada com a questão escolhida, a visualizaç�
 
 ### 2.1 Análise de Performance de Vendas
 
-**Questão escolhida:** ("Análise de Sazonalidade: Investigar padrões de sazonalidade nas vendas, identificando os períodos do ano com maior volume de vendas.")
+**Questão escolhida:** B) Análise de Sazonalidade: Investigar padrões de sazonalidade nas vendas, identificando os períodos do ano com maior volume de vendas.
 
 **Visualização:**
 
@@ -35,7 +35,15 @@ Abaixo, cada análise está estruturada com a questão escolhida, a visualizaç�
 
 **Interpretação:**
 
-Descreva os padrões observados, destaque categorias com maior volume de vendas, variações sazonais, comportamento do mercado e tendências identificadas.
+De acordo com os gráficos
+
+Análise de Sazonalidade (Melhor Mês por Ano):
+Ano 2016:
+Melhor mês para Valor Recebido: Outubro (2016-10) com R$ 67.941,17.
+Melhor mês para Quantidade Vendida: Outubro (2016-10) com 362 unidades.
+Ano 2017: Melhor mês para Valor Recebido: Novembro (2017-11) com R$ 1.550.848,82.
+Melhor mês para Quantidade Vendida: Novembro (2017-11) com 8.811 unidades.
+Ano 2018: Melhor mês para Valor Recebido: Maio (2018-05) com R$ 1.531.971,40. Melhor mês para Quantidade Vendida: Março (2018-03) com 8.614 unidades.
 
 ---
 
