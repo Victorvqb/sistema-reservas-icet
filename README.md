@@ -35,22 +35,28 @@ Abaixo, cada análise está estruturada com a questão escolhida, a visualizaç�
 
 **Interpretação:**
 
-De acordo com os gráficos
+## Análise dos Meses de Maior Desempenho (2016-2018)
 
-Análise de Sazonalidade (Melhor Mês por Ano):
+Este estudo explora os picos de faturamento e volume de vendas, identificando padrões de sazonalidade ao longo dos anos.
 
-Ano 2016:
+| Ano | Métrica              | Melhor Mês | Valor/Unidades |
+| :-- | :------------------- | :--------- | :------------- |
+| 2016| Faturamento          | Outubro    | R$ 67.941,17   |
+| 2016| Unidades Vendidas    | Outubro    | 362 unidades   |
+| 2017| Faturamento          | Novembro   | R$ 1.550.848,82|
+| 2017| Unidades Vendidas    | Novembro   | 8.811 unidades |
+| 2018| Faturamento          | Maio       | R$ 1.531.971,40|
+| 2018| Unidades Vendidas    | Março      | 8.614 unidades |
 
-Melhor mês para Valor Recebido: Outubro (2016-10) com R$ 67.941,17.
+---
 
-Melhor mês para Quantidade Vendida: Outubro (2016-10) com 362 unidades.
+### Insights da Análise:
 
-Ano 2017: Melhor mês para Valor Recebido: Novembro (2017-11) com R$ 1.550.848,82.
+* **2016:** Os dados de 2016 apontam Outubro como o mês de desempenho superior, com os maiores valores observados tanto em faturamento quanto em unidades vendidas. Há uma correlação direta entre volume e receita neste período.
+* **2017:** Em 2017, registrou-se um crescimento substancial, com Novembro apresentando o pico em ambas as métricas – faturamento e volume de vendas. Este ano representa um ponto de inflexão significativo na performance geral.
+* **2018:** O ano de 2018 exibe uma particularidade: o maior volume de unidades vendidas ocorreu em Março, enquanto o pico de faturamento foi atingido em Maio. Essa divergência pode indicar transações com maior valor unitário em Maio ou dinâmicas distintas de mercado e precificação entre os meses.
 
-Melhor mês para Quantidade Vendida: Novembro (2017-11) com 8.811 unidades.
-
-Ano 2018: Melhor mês para Valor Recebido: Maio (2018-05) com R$ 1.531.971,40. Melhor mês para Quantidade Vendida: Março (2018-03) com 8.614 unidades.
-
+**Conclusão da Análise:** A partir da análise dos dados, é possível identificar padrões anuais de sazonalidade e a evolução notável no faturamento de 2016 para 2017 e 2018. A discrepância observada em 2018, onde o maior volume não correspondeu ao maior faturamento, sublinha a importância de uma análise multifacetada para uma compreensão abrangente do desempenho.
 ---
 
 ### 2.2 Logística
