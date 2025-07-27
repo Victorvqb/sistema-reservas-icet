@@ -105,43 +105,12 @@ Este estudo explora os picos de faturamento e volume de vendas, identificando pa
 
 O objetivo desta análise foi investigar a distribuição das notas de avaliação dos clientes e identificar categorias de produtos com os melhores e piores desempenhos médios.
 
-### Distribuição Geral das Notas de Avaliação
-
-A análise da distribuição geral das notas (`review_score`) indica uma predominância de avaliações positivas (notas 4 e 5), sugerindo uma percepção geral favorável dos produtos. Contudo, a ocorrência de notas 1 e 2 em volume notável aponta para áreas potenciais de insatisfação. A média geral das avaliações serve como um parâmetro inicial da satisfação do cliente.
+A análise da distribuição geral das notas (`review_score`) indica como maioria as avaliações positivas (notas 4 e 5), sugerindo uma percepção geral favorável dos produtos. A ocorrência de notas 1 e 2 em volume notável aponta para áreas potenciais de insatisfação. A média geral das avaliações serve como um parâmetro inicial da satisfação do cliente.
 
 ### Desempenho por Categoria de Produto
 
 Para identificar o desempenho por categoria, calculamos a média das avaliações por `product_category_name`, considerando apenas categorias com um volume representativo de avaliações (e.g., mais de 100).
 
-#### Top 10 Melhores Categorias de Produtos por Média de Avaliação:
-
-As seguintes categorias apresentam as maiores médias de avaliação, indicando alta satisfação do cliente:
-
-* **eletrodomesticos:** Média de 4.55
-* **informatica_acessorios:** Média de 4.38
-* **telefonia:** Média de 4.30
-* **cama_mesa_banho:** Média de 4.25
-* **moveis_decoracao:** Média de 4.18
-* **beleza_saude:** Média de 4.15
-* **esporte_lazer:** Média de 4.10
-* **automotivo:** Média de 4.05
-* **brinquedos:** Média de 4.00
-* **ferramentas_jardim:** Média de 3.95
-
-#### Top 10 Piores Categorias de Produtos por Média de Avaliação:
-
-As categorias a seguir exibem as menores médias de avaliação, sugerindo áreas que demandam atenção para compreender os fatores que contribuem para a baixa satisfação:
-
-* **fraldas_higiene:** Média de 3.10
-* **fashion_calcados:** Média de 3.25
-* **artes:** Média de 3.30
-* **construcao_ferramentas_seguranca:** Média de 3.45
-* **livros_importados:** Média de 3.50
-* **malas_acessorios:** Média de 3.55
-* **musica:** Média de 3.60
-* **cds_dvds_musicais:** Média de 3.65
-* **flores:** Média de 3.70
-* **seguros_e_servicos:** Média de 3.75
 ---
 
 ### 2.4 Financeiro
