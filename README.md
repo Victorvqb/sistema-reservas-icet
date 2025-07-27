@@ -4,8 +4,6 @@
 **E-mail:** seu@email.com  
 **LinkedIn (opcional):** https://linkedin.com/in/seu-perfil
 
----
-
 ## Repositório
 
 A versão completa com código  está disponível em:
