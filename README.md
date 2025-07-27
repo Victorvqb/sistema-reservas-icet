@@ -1,12 +1,23 @@
 # Desafio: Dados que Transformam
 
-**Participante:** Seu Nome Aqui
+**Nome:** Seu Nome  
+**E-mail:** seu@email.com  
+**LinkedIn (opcional):** https://linkedin.com/in/seu-perfil
 
 ---
 
+## Repositório
+
+A versão completa com código  está disponível em:
+
+link do colab
+
+
 ## 1. Introdução
 
-Apresente o desafio brevemente. Fale sobre a importância de transformar dados públicos em insights acionáveis, com foco no e-commerce brasileiro. Destaque que este documento apresenta apenas a defesa dos resultados analíticos, pois a parte técnica foi previamente apresentada.
+A partir desse conjunto de dados, este trabalho se propõe a enxergar além dos números e revelar padrões que em um cenário real ajudariam na tomada de desição.
+
+O desafio proposto foi dividido em etapas que envolvem desde a organização e preparação dos dados até a seleção de perguntas-chave voltadas para diferentes áreas do e-commerce, como vendas, logística, satisfação do cliente, finanças e marketing. Cada escolha analítica buscou destacar um aspecto relevante do negócio a partir da leitura cuidadosa dos dados disponíveis.
 
 ---
 
@@ -96,18 +107,6 @@ Apresente as conclusões gerais do trabalho. Aponte os principais insights obtid
 
 Fale sobre qual tópico você mais gostou de explorar e por que. Demonstre seu interesse por alguma área específica, como logística, satisfação do cliente, finanças ou marketing.
 
----
 
-## 5. Repositório
 
-A versão completa com código, dados e documentação técnica está disponível em:
 
-https://github.com/seu-usuario/seu-repositorio
-
----
-
-## 6. Contato
-
-**Nome:** Seu Nome  
-**E-mail:** seu@email.com  
-**LinkedIn (opcional):** https://linkedin.com/in/seu-perfil
