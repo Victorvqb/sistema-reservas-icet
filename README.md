@@ -25,9 +25,9 @@ Abaixo, cada análise está estruturada com a questão escolhida, a visualizaç�
 
 ---
 
-### 2.1 Performance de Vendas
+### 2.1 Análise de Performance de Vendas
 
-**Questão escolhida:** (escreva aqui a opção selecionada, como "Volume de Vendas por Categoria")
+**Questão escolhida:** ("Análise de Sazonalidade: Investigar padrões de sazonalidade nas vendas, identificando os períodos do ano com maior volume de vendas.")
 
 **Visualização:**
 
